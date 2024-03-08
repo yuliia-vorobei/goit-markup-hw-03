@@ -243,8 +243,10 @@ section {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-  padding-top: 110px;
   padding-bottom: 72px;
+}
+.section .portfolio-title {
+  padding-top: 120px;
 }
 
 .portfolio-list {
