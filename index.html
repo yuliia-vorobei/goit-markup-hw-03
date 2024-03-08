@@ -24,16 +24,16 @@
     <!-- Шапка веб-сторінки -->
     <header class="header">
       <div class="container header-container">
-          <nav class="navigation-container">
-            <a class="logo" href="./index.html"
-              >Web<span class="logo-colour">Studio</span></a
-            >
-            <ul class="navigation-list">
-              <li><a class="nav-link" href="./index.html">Studio</a></li>
-              <li><a class="nav-link" href="">Portfolio</a></li>
-              <li><a class="nav-link" href="">Contacts</a></li>
-            </ul>
-          </nav>
+        <nav class="navigation-container">
+          <a class="logo" href="./index.html"
+            >Web<span class="logo-colour">Studio</span></a
+          >
+          <ul class="navigation-list">
+            <li><a class="nav-link" href="./index.html">Studio</a></li>
+            <li><a class="nav-link" href="">Portfolio</a></li>
+            <li><a class="nav-link" href="">Contacts</a></li>
+          </ul>
+        </nav>
 
         <address class="address">
           <ul class="address-container">
@@ -51,7 +51,6 @@
         </address>
       </div>
     </header>
-    </div>
 
     <main>
       <section class="hero">
@@ -63,30 +62,30 @@
 
       <section class="features">
         <div class="container">
-          <h2>Hidden title</h2>
-          <ul>
-            <li>
+          <h2 class="visually-hidden">Hidden title</h2>
+          <ul class="features-list">
+            <li class="features-item">
               <h3 class="features-title">Strategy</h3>
               <p class="features-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li>
+            <li class="features-item">
               <h3 class="features-title">Punctuality</h3>
               <p class="features-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li>
+            <li class="features-item">
               <h3 class="features-title">Diligence</h3>
               <p class="features-text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li>
+            <li class="features-item">
               <h3 class="features-title">Technologies</h3>
               <p class="features-text">
                 Design practice focused on digital experiences. We bring forth a
@@ -100,7 +99,7 @@
       <section class="team">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
-          <ul>
+          <ul class="team-list">
             <li class="team-item">
               <img src="./images/img-1.jpg" alt="Mark Guerrero" width="264" />
               <h3 class="team-subtitle">Mark Guerrero</h3>
@@ -128,11 +127,13 @@
       <section class="portfolio">
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
-          <ul>
+          <ul class="portfolio-list">
             <li class="portfolio-item">
               <img src="./images/portfolio-1.jpg" alt="Bank App" width="360" />
-              <h3 class="porfolio-subtitle">Banking App</h3>
-              <p class="portfolio-text">App</p>
+              <div class="portfolio-container">
+                <h3 class="porfolio-subtitle">Banking App</h3>
+                <p class="portfolio-text">App</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
@@ -140,8 +141,10 @@
                 alt="Paying by phone"
                 width="360"
               />
-              <h3 class="porfolio-subtitle">Cashless Payment</h3>
-              <p class="portfolio-text">Marketing</p>
+              <div class="portfolio-container">
+                <h3 class="porfolio-subtitle">Cashless Payment</h3>
+                <p class="portfolio-text">Marketing</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
@@ -149,13 +152,17 @@
                 alt="Meditation App"
                 width="360"
               />
-              <h3 class="porfolio-subtitle">Meditation App</h3>
-              <p class="portfolio-text">App</p>
+              <div class="portfolio-container">
+                <h3 class="porfolio-subtitle">Meditation App</h3>
+                <p class="portfolio-text">App</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img src="./images/portfolio-4.jpg" alt="Car wheel" width="360" />
-              <h3 class="porfolio-subtitle">Taxi Service</h3>
-              <p class="portfolio-text">Marketing</p>
+              <div class="portfolio-container">
+                <h3 class="porfolio-subtitle">Taxi Service</h3>
+                <p class="portfolio-text">Marketing</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
@@ -163,8 +170,10 @@
                 alt="Phone backgrounds"
                 width="360"
               />
-              <h3 class="porfolio-subtitle">Screen Illustrations</h3>
-              <p class="portfolio-text">Design</p>
+              <div class="portfolio-container">
+                <h3 class="porfolio-subtitle">Screen Illustrations</h3>
+                <p class="portfolio-text">Design</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
@@ -172,8 +181,10 @@
                 alt="Lady doing a course"
                 width="360"
               />
-              <h3 class="porfolio-subtitle">Online Courses</h3>
-              <p class="portfolio-text">Marketing</p>
+              <div class="portfolio-container">
+                <h3 class="porfolio-subtitle">Online Courses</h3>
+                <p class="portfolio-text">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
