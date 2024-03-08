@@ -155,6 +155,7 @@ section {
   border: none;
   margin: 0 auto;
   padding: 16px 32px;
+  min-width: 169px;
 }
 
 .hero-button:hover,
@@ -198,7 +199,7 @@ section {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .team-list {
@@ -216,6 +217,14 @@ section {
   background: #fff;
 }
 
+.mark-designer,
+.tom-developer,
+.camila-marketing,
+.daniel-designer {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .team-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -224,7 +233,7 @@ section {
   text-align: center;
   color: #2e2f42;
   padding-top: 32px;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .team-text {
@@ -243,7 +252,7 @@ section {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .section .portfolio-title {
   padding-top: 120px;
@@ -253,6 +262,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
 }
 .portfolio-item {
 }
@@ -260,6 +270,7 @@ section {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
+  padding: 32px 16px;
 }
 
 .porfolio-subtitle {
@@ -269,7 +280,7 @@ section {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding-top: 32px;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   padding-left: 16px;
 }
 
@@ -284,6 +295,8 @@ section {
 
 .footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .logo-footer {
@@ -295,8 +308,8 @@ section {
   text-transform: uppercase;
   color: #4d5ae5;
   display: flex;
-  padding-top: 101.5px;
-  padding-bottom: 17.5px;
+  margin-bottom: 16px;
+  display: inline-block;
 }
 .logo-footer-color {
   color: #f4f4fd;
@@ -308,6 +321,5 @@ section {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   padding-top: 16px;
-  padding-bottom: 100px;
   max-width: 264px;
 }
